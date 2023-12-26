@@ -18,3 +18,6 @@ def index(request):
     else:
         form = UserForm()
     return render(request,'index.html',{'form': form})
+
+def home(request):
+    return "Home Page"
