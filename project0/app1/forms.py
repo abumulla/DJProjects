@@ -9,3 +9,6 @@ class UserForm(forms.Form):
     
     def __str__(self):
         return self.email
+    
+
+# This is the changes I made in the master branch
